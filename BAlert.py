@@ -85,7 +85,7 @@ def send_alert_message(driver, contact_list, current_location):
     account_sid = "******************************"
     auth_token = "*******************************"
     sender = "***********"  # Fetch Phone number and put it here
-    message = f"{driver} doesn't seem okay! Vehicle Number:KL 29 K 1419, Last known location: {current_location}"
+    message = f"{driver} doesn't seem okay! Vehicle Number:KL 01 S 0007, Last known location: {current_location}"
 
     client = Client(account_sid, auth_token)
     for num in contact_list:
